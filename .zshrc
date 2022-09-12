@@ -23,16 +23,11 @@ export ENCRYPTION_KEY=R79nKLagPtIJH81lS+JcrKW25OUnr8DycqxpEBbBcGU=
 
 ## Plugins
 
+source ~/.zsh/spaceship-prompt/spaceship.zsh
 source ~/.zsh/fast-syntax-highlighting/fast-syntax-highlighting.plugin.zsh
 source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 source ~/.zsh/zsh-history-substring-search/zsh-history-substring-search.zsh
-
 fpath=(~/.zsh/zsh-completions/ $fpath)
-
-## Spaceship theme
-
-autoload -U promptinit; promptinit
-prompt spaceship
 
 ## Spaceship settings
 
