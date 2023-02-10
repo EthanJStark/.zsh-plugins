@@ -1,19 +1,3 @@
-## Provider-specific env
-
-export PROVIDER_HOME_DIRECTORY=/Users/ethan.stark/workspace/provider
-export GOPATH=$PROVIDER_HOME_DIRECTORY/go 
-
-export CURRENT_DB=captain401-provider-2022-06-30
-export DATABASE_URL=postgres://localhost/$CURRENT_DB?sslmode=disable
-export TZ=UTC
-
-## Source GO in $PATH
-## export PATH=$PATH:/usr/local/opt/go
-
-
-## WF-specific env
-
-export ENCRYPTION_KEY=R79nKLagPtIJH81lS+JcrKW25OUnr8DycqxpEBbBcGU=
 
 ## VS Code
 
