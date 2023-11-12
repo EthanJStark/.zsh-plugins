@@ -1,4 +1,8 @@
 
+## PATH
+
+export PATH="/Users/estark/Library/Python/3.11/bin:$PATH"
+
 ## VS Code
 
 ## Shell integration
